@@ -71,8 +71,12 @@
 // let wynikMnoenia = multiply (number1, 3);
 // console.log
 
-let myHeading = document.querySelector('h1')
+let myHeading = document.querySelector('h1');
 
-myHeading.textContent = 'Kamila i Tomasz'
-myHeading.innerText = 'Wielka Miłość'
-console.log(myHeading)
+myHeading.textContent = 'Kamila i Tomasz';
+myHeading.innerText = 'Wielka Miłość Click';
+
+myHeading.onclick = function(){
+    alert("właśnie kliknąłem")
+}
+console.log(myHeading);
